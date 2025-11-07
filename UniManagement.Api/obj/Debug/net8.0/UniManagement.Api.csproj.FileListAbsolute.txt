@@ -1,0 +1,8 @@
+C:\Users\Gianlucca\source\repos\UniManagementSolution\UniManagement.Api\obj\Debug\net8.0\UniManagement.Api.csproj.AssemblyReference.cache
+C:\Users\Gianlucca\source\repos\UniManagementSolution\UniManagement.Api\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\Gianlucca\source\repos\UniManagementSolution\UniManagement.Api\obj\Debug\net8.0\UniManagement.Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gianlucca\source\repos\UniManagementSolution\UniManagement.Api\obj\Debug\net8.0\UniManagement.Api.AssemblyInfoInputs.cache
+C:\Users\Gianlucca\source\repos\UniManagementSolution\UniManagement.Api\obj\Debug\net8.0\UniManagement.Api.AssemblyInfo.cs
+C:\Users\Gianlucca\source\repos\UniManagementSolution\UniManagement.Api\obj\Debug\net8.0\UniManagement.Api.csproj.CoreCompileInputs.cache
+C:\Users\Gianlucca\source\repos\UniManagementSolution\UniManagement.Api\obj\Debug\net8.0\UniManagement.Api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Gianlucca\source\repos\UniManagementSolution\UniManagement.Api\obj\Debug\net8.0\UniManagement.Api.MvcApplicationPartsAssemblyInfo.cache

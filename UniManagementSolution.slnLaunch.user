@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "Novo Perfil",
+    "Projects": [
+      {
+        "Path": "UniManagement.Web\\UniManagement.Web.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "UniManagement.Api\\UniManagement.Api.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

@@ -1,0 +1,16 @@
+wwwroot\chamados.css
+wwwroot\chamados.html
+wwwroot\chamados.js
+wwwroot\favicon.ico
+wwwroot\hand-icon.png
+wwwroot\index.html
+wwwroot\logo.png
+wwwroot\package-lock.json
+wwwroot\package.json
+wwwroot\register.css
+wwwroot\register.html
+wwwroot\register.js
+wwwroot\register.ts
+wwwroot\script.js
+wwwroot\script.ts
+wwwroot\style.css
