@@ -1,0 +1,21 @@
+# Pasta de cache do Visual Studio
+.vs/
+
+# Pastas de compilação
+[Bb]in/
+[Oo]bj/
+
+# Dependências do Node.js (do seu projeto Web)
+node_modules/
+
+# Arquivos de usuário
+*.user
+*.userosscache
+*.sln.docstates
+
+# Arquivos de log
+*.log
+
+# ### IMPORTANTE: IGNORAR CHAVES DE API ###
+**/appsettings.json
+**/appsettings.Development.json
