@@ -1,10 +1,10 @@
 ﻿using Google_GenerativeAI;
 using Microsoft.Extensions.Configuration;
 using System;
-using System.Collections.Generic; // Necessário para o Task<AIResponse> (embora AIResponse não seja uma lista, Task<T> usa)
-using System.Threading.Tasks;  // Necessário para Task e async/await
+using System.Collections.Generic; 
+using System.Threading.Tasks;  
 
-// Seu namespace de serviços
+
 namespace UniManagement.Api.Services
 {
     public class GeminiService : IAIService
