@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using UniManagement.Api.Data;
 using UniManagement.Api.Entities;
-using UniManagement.Api.Services; // <-- Importante: usar a interface
+using UniManagement.Api.Services;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,7 +15,7 @@ namespace UniManagement.Api.Controllers
     public class ChamadosController : ControllerBase
     {
         private readonly ApplicationDbContext _context;
-        private readonly IAIService _aiService; // <-- Injeta a INTERFACE
+        private readonly IAIService _aiService; 
 
         // O construtor  recebe o DbContext e o IAIService
         public ChamadosController(ApplicationDbContext context, IAIService aiService)
