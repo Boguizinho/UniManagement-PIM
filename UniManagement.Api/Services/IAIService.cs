@@ -1,4 +1,4 @@
-﻿using System.Threading.Tasks; // Adicionar este using
+﻿using System.Threading.Tasks;
 
 namespace UniManagement.Api.Services
 {
