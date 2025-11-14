@@ -1,6 +1,6 @@
 var builder = WebApplication.CreateBuilder(args);
 
-// Adicionar serviços ao contêiner.
+// Adicionar serviÃ§os ao contÃªiner.
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
@@ -13,19 +13,14 @@ if (!app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-// LINHA IMPORTANTE 1: Habilita o uso de arquivos padrão como index.html
+// LINHA IMPORTANTE 1: Habilita o uso de arquivos padrÃ£o como index.html
 app.UseDefaultFiles();
 
-// LINHA IMPORTANTE 2: Habilita o serviço de arquivos estáticos (da pasta wwwroot)
+// LINHA IMPORTANTE 2: Habilita o serviÃ§o de arquivos estÃ¡ticos (da pasta wwwroot)
 app.UseStaticFiles();
 
 app.UseRouting();
 
 app.UseAuthorization();
-
-// A linha abaixo foi removida para que o index.html seja a prioridade.
-// app.MapControllerRoute(
-//     name: "default",
-//     pattern: "{controller=Home}/{action=Index}/{id?}");
 
 app.Run();
