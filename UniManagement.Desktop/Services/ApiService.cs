@@ -11,7 +11,7 @@ namespace UniManagement.Desktop.Services
     public class ApiService
     {
         private readonly HttpClient _httpClient;
-        // IMPORTANTE: Ajuste a porta para a mesma da sua API!
+    
         private const string BaseUrl = "https://localhost:7004/";
 
         public ApiService()
