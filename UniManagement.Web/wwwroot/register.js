@@ -44,7 +44,7 @@ document.addEventListener('DOMContentLoaded', function () {
             id: userIdInput.value,
             phone: phoneNumberInput.value,
             email: fullCorporateEmail,
-            password: passwordInput.value // Incluindo a senha no localStorage (ATENÇÃO: RISCO DE SEGURANÇA!)
+            password: passwordInput.value // Incluindo a senha no localStorage 
         };
         localStorage.setItem('registeredUser', JSON.stringify(userData));
         errorMessage.textContent = 'Cadastro realizado com sucesso! Redirecionando para o login...';
