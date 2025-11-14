@@ -5,7 +5,7 @@
 [Bb]in/
 [Oo]bj/
 
-# Dependências do Node.js (do seu projeto Web)
+# Dependências do Node.js 
 node_modules/
 
 # Arquivos de usuário
@@ -16,6 +16,6 @@ node_modules/
 # Arquivos de log
 *.log
 
-# ### IMPORTANTE: IGNORAR CHAVES DE API ###
+
 **/appsettings.json
 **/appsettings.Development.json
