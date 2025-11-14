@@ -17,7 +17,7 @@ namespace UniManagement.Api.Controllers
         private readonly ApplicationDbContext _context;
         private readonly IAIService _aiService; // <-- Injeta a INTERFACE
 
-        // O construtor agora recebe o DbContext e o IAIService
+        // O construtor  recebe o DbContext e o IAIService
         public ChamadosController(ApplicationDbContext context, IAIService aiService)
         {
             _context = context;
@@ -44,7 +44,7 @@ namespace UniManagement.Api.Controllers
                 return BadRequest("Descrição do chamado é obrigatória.");
             }
 
-            // 1. Analisa com a IA (agora usando o GeminiService)
+            // 1. Analisa com a IA ( usando o GeminiService)
             var aiResponse = await _aiService.AnalisarChamadoAsync(novoChamadoRequest.Descricao);
 
             // 2. Se a IA deu sugestão, retorna a sugestão
