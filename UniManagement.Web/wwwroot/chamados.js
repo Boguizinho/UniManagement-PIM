@@ -4,9 +4,9 @@ document.addEventListener('DOMContentLoaded', function () {
     const chatBox = document.getElementById('chatBox');
     const chatInput = document.getElementById('chatInput');
     const sendMessageButton = document.getElementById('sendMessageButton');
-    // (Removidos os botões de confirmação/resolução que não estavam no seu HTML final)
 
-    // --- URL da API (Verifique se a porta está correta!) ---
+
+    // --- URL da API ---
     const API_BASE_URL = 'https://localhost:7004/api/chamados'; // Ajuste a porta se necessário
 
     // --- Funções Auxiliares ---
@@ -69,7 +69,7 @@ document.addEventListener('DOMContentLoaded', function () {
             // Verifica o 'status' retornado pela API
             if (data.status === 'sugestao') {
                 addMessage('IA', `Sugestão: ${data.mensagem}`);
-                // Poderia adicionar botões "Resolveu?" / "Não resolveu" aqui
+              
             } else if (data.status === 'aberto') {
                 addMessage('IA', data.mensagem); // Exibe a mensagem "Chamado #XXX aberto..."
             } else {
